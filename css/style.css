@@ -1,0 +1,233 @@
+/* general 
+*****************************/
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191a56;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    width: 100%;
+}
+
+
+/* Main 
+**********************************/
+.container {
+    width: 606px;
+    margin: 6% auto;
+    padding: 2%;
+    overflow: hidden;
+}
+
+.clear {
+    clear: both
+}
+
+p.priority {
+    color: #c1bfd6;
+    margin-top: 8px;
+    font-size: 17px;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+p.priority:first-letter {
+    color: #97bf5f;
+}
+
+.line {
+    margin-top: 25px;
+    background: #c1bfd6;
+    width: 100%;
+    height: 1px;
+    opacity: 0.3;
+}
+
+
+/* subscribe
+************************************/
+.subscribe {
+    position: relative;
+    margin: 5% auto;
+    padding: 5%;
+    height: 495px;
+    width: 50%;
+    float: left;
+    background-color: #312977;
+    z-index: 2;
+    -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.42);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.42);
+    border-radius: 10px;
+}
+
+.subscribe h1 {
+    display: inline;
+    margin-top: 0;
+    float: left;
+    width: 30%;
+    font-size: 42px;
+    line-height: 38px;
+}
+
+.subscribe span {
+    float: right;
+    word-wrap: break-word;
+    width: 60%;
+    font-size: 17px;
+}
+
+.subscribe p.Regularity {
+    color: #c1bfd6;
+    word-wrap: break-word;
+    margin-top: 0;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+.subscribe p.pay {
+    margin-bottom: 9px;
+    margin-top: 26px;
+    font-size: 20px;
+}
+
+.prices .monthly,
+.prices .yearly {
+    height: 125px;
+    width: 47%;
+    border: 1px solid #9763ff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.prices .monthly {
+    float: left;
+}
+
+.prices .yearly {
+    float: right;
+}
+
+.prices .monthly p:Nth-child(1),
+.prices .yearly p:Nth-child(1) {
+    color: #c1bfd6;
+    font-weight: 600;
+}
+
+.prices .monthly p:Nth-child(2),
+.prices .yearly p:Nth-child(2) {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.prices .yearly p:Nth-child(3) {
+    color: #97bf5f;
+    font-weight: 300;
+}
+
+.prices .monthly:hover,
+.prices .yearly:hover {
+    background: #9763ff;
+}
+
+.subscribe .subbutton {
+    margin-top: 8px;
+    padding: 10px;
+    width: 100%;
+    border: 0px;
+    border-radius: 7px;
+    background: #1c8abd;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.subscribe .subbutton:hover {
+    cursor: pointer;
+    background: #0f6f9b;
+}
+
+
+/* bundles 
+**********************************/
+.bundles {
+    position: relative;
+    margin: 10% 0;
+    padding: 5%;
+    height: 430px;
+    width: 50%;
+    float: right;
+    background-color: #312977;
+    z-index: 1;
+    -webkit-box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.42);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.42);
+    border-radius: 0 10px 10px 0px;
+}
+
+.bundles h2 {
+    margin-top: 5px;
+}
+
+.bundles p.get {
+    color: #c1bfd6;
+    word-wrap: break-word;
+    margin-top: 0;
+    line-height: 1.4;
+    font-size: 18px;
+}
+
+.bundles .select-bundle {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.select-bundle span.count {
+    float: left;
+}
+
+.select-bundle span.price {
+    float: right;
+}
+
+.firs-bundle,
+.second-bundle,
+.third-bundle {
+    width: 100%;
+    height: 34px;
+    padding: 7px;
+    border-radius: 8px;
+    color: #c1bfd6;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.firs-bundle:hover,
+.second-bundle:hover,
+.third-bundle:hover {
+    background: #9763ff;
+    color: #f0f8ff;
+}
+
+.firs-bundle:focus,
+.second-bundle:focus-within,
+.third-bundle:focus {
+    background: #9763ff;
+    color: #f0f8ff;
+}
+
+.bundles .buybutton {
+    margin-top: 0px;
+    padding: 10px;
+    width: 100%;
+    border: 0px;
+    border-radius: 7px;
+    background: #1c8abd;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.bundles .buybutton:hover {
+    cursor: pointer;
+    background: #0f6f9b;
+}
